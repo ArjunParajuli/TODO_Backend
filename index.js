@@ -29,7 +29,7 @@ app.listen(PORT, () => {
     console.log("Server started at http://localhost:" + process.env.PORT);
 });
 
-// default route
+// default route for app
 app.get("/", (req, res)=>{
     res.send("<h1>Home</h1>")
 })
