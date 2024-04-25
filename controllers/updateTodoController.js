@@ -14,7 +14,7 @@ const updateTodoController = async(req, res) =>{
             status: true
         })
     }catch(err){
-        console.log("Err")
+        console.log("Err ok")
     }
 }
 
